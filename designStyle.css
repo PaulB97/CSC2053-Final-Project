@@ -16,3 +16,18 @@ h3
     text-align: center;
     
 }
+
+[type="file"] + label {
+  background-color: rgb(16, 84, 209);
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 2rem 4rem;
+}
+
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #f15d22;
+}
+
