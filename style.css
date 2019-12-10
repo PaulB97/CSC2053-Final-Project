@@ -1,0 +1,46 @@
+body {
+      background-color: rgb(180, 208, 245); 
+
+      font-size: 3em;
+      font-weight: bold;
+      color: #000080;
+      text-align: left;
+      
+  }
+
+  input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid rgb(173, 51, 51);
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: rgb(221, 78, 78);
+}
+
+
+[type="file"] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+ 
+[type="file"] + label {
+  background-color: rgb(16, 84, 209);
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 2rem 4rem;
+}
+  
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #f15d22;
+}
