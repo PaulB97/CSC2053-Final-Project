@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(180, 208, 245); 
+  
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(237, 239, 241);
+    text-align: left;
+    
+  }
+  h3
+  {
+      font-size: 3.5em;
+      font-weight: bold;
+      color: rgb(219, 225, 233);
+      text-align: center;
+      border-style: double;
+      border-color: rgb(247, 231, 231);
+      background-color: rgb(3, 46, 102);
+      
+  }

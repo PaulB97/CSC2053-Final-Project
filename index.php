@@ -4,9 +4,14 @@
         <title>Pet Board</title>  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" /> 
-        <link rel="stylesheet" href="style.css" /> 
+        <link rel="stylesheet" href="designStyle.css" /> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
     </head>  
+    <style>
+        body {
+        background-image: url("https://www.ppt-backgrounds.net/thumbs/image-with-related-pictures-paw-print-by-wallpaper-slides-backgrounds.jpg");
+            }
+    </style>
     <body>  
         <br /><br />  
         <div class="container">  
@@ -14,8 +19,6 @@
             <br />  
             <form method="post" id="upload_multiple_images" enctype="multipart/form-data">
                 <input type="file" name="image[]" id="image" multiple accept=".jpg, .png, .gif" />
-                <label for="file-upload" class="custom-file-upload"> Upload File</label>
-                <input id="file-upload" type="file"/>
                 <br />
                 <input type="submit" name="insert" id="insert" value="Insert" class="btn btn-info" />
             </form>
