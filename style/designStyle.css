@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(180, 208, 245); 
+
+  font-size: 3em;
+  font-weight: bold;
+  color: rgb(237, 239, 241);
+  text-align: left;
+  
+}
+h3
+{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(219, 225, 233);
+    text-align: center;
+    border-style: double;
+    border-color: rgb(247, 231, 231);
+    background-color: rgb(3, 46, 102);
+    
+}
+
+[type="file"] + label {
+  background-color: rgb(16, 84, 209);
+  border-radius: 4rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 2rem 4rem;
+}
+
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #f15d22;
+}
+
+#insert 
+{
+  font-size: 10.0 em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
